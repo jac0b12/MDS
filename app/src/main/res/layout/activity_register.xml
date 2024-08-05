@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|bottom"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/EmailR_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="18dp"
+            android:textColor="@color/material_dynamic_neutral_variant70"
+            android:textColorHint="@color/material_dynamic_neutral_variant70"
+            android:textSize="20sp"
+            android:autofillHints=""
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/Password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Password*"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/material_dynamic_neutral_variant70"
+            android:textColorHint="@color/material_dynamic_neutral_variant70"
+            android:textSize="20sp"
+            android:autofillHints=""
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/repeatPasswordR_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Repeat password*"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/material_dynamic_neutral_variant70"
+            android:textColorHint="@color/material_dynamic_neutral_variant70"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"
+            android:autofillHints="" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iniciar sesión"
+            android:backgroundTint="#1433A4"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="60dp"
+            android:textSize="20sp"
+            android:id="@+id/login_btn"
+            tools:ignore="HardcodedText" />
+
+
+
+        <TextView
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-80dp"
+            android:layout_marginTop="-460dp"
+            android:text="Create una cuenta"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-180dp"
+            android:text="Iniciar Sesión"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:text="Al registrarte en esta aplicacion, tambien aceptas nuestros terminos y condiciones"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Registrate_btn"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="548dp"
+        android:text="iniciar sesion"
+        android:textColor="#412093"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:text="¿Ya tienes una cuenta?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+
+</RelativeLayout>
