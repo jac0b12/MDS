@@ -1,16 +1,16 @@
 # Medidor de salario (MDS) 
 
 ## descripcion
- Este proyecto  calculará aproxim tu salario segunn tus horas trabajadas .
+ Este proyecto  calculará aproximadamente tu salario segun tus horas trabajadas .
 
 ## Enfasis
- Nuestra idea principal es crear una aplicacion movil para medir el salario de una persona en base sus horas trabajadas y hacer una comparativa con elcontrato de su empres para asi saber si es rentable o no.
+ Nuestra idea principal es crear una aplicacion movil para medir el salario de una persona en base sus horas trabajadas y hacer una comparativa con el contrato de su empresa para asi saber si es rentable o no.
 
 ### Nuestro proyecto esta conformado por la siguientes personas
 
-* Simón Rojas Castaño
-* Jacobo Patiño Castro
-* Juan José Sanchez Ramirez
+> * Simón Rojas Castaño
+> * Jacobo Patiño Castro
+> * Juan José Sanchez Ramirez
 
 ### Orden
 
