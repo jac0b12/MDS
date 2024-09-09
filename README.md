@@ -20,7 +20,8 @@
 
 ## Imagenes
 
-![Un ejemplo seria así.](C:\Users\Usuario\Documents\hoy "This is a sample image.")
+![image](https://github.com/user-attachments/assets/1be85744-2d31-443a-8b68-23b471e7c0e3)
+
 
 ## Links
 
