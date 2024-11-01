@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:layout_marginTop="-10dp"
+    android:layout_marginLeft="-10dp"
+    android:layout_marginRight="-10dp">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="430dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:background="#000000"
+        android:contentDescription="fondo de perfil negro"
+        app:layout_constraintBottom_toTopOf="@+id/imagenavatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/black"
+        tools:ignore="HardcodedText"
+
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/perfil_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERFIL"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="-70dp"
+        android:layout_marginBottom="70dp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Evento" />
+
+    <TextView
+        android:id="@+id/eventTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Evento seleccionado:" />
+
+
+    <ImageView
+        android:id="@+id/devolvitis2"
+        android:layout_width="40dp"
+        android:layout_height="58dp"
+        android:contentDescription="pa tras"
+        android:layout_marginTop="-570dp"
+        android:layout_marginEnd="180dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

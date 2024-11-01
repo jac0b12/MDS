@@ -27,7 +27,7 @@
         tools:ignore="HardcodedText" />
 
     <ImageView
-        android:id="@+id/imagen3"
+        android:id="@+id/devolvitis2"
         android:layout_width="38dp"
         android:layout_height="34dp"
         android:contentDescription="devolver"

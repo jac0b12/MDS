@@ -38,9 +38,10 @@
         tools:ignore="HardcodedText" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/devolvitis1"
         android:layout_width="40dp"
         android:layout_height="58dp"
+        android:contentDescription="pa tras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -48,7 +49,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@android:drawable/ic_menu_revert"
-        android:contentDescription="pa tras"
         tools:ignore="HardcodedText" />
 
     <TextView

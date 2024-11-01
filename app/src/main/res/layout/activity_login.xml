@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".WelcomePage">
 
     <TextView
         android:id="@+id/is_arriba"
@@ -86,17 +86,20 @@
 
     <TextView
         android:id="@+id/register_btn"
+        style="@style/Widget.Material3.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
         android:layout_marginBottom="213dp"
+        android:clickable="true"
         android:text="REGISTRATE"
         android:textColor="#001AFF"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/abajo_is"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/iniciarSesion_btn"
