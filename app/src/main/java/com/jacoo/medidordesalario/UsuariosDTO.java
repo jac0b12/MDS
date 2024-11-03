@@ -7,6 +7,7 @@ public class UsuariosDTO {
     private String id;
     private String email;
 
+
     public UsuariosDTO(@NotNull String id, @NotNull String email) {
         this.id = id;
         this.email = email;
