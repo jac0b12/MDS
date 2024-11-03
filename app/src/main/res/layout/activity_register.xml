@@ -47,7 +47,7 @@
 
 
         <EditText
-            android:id="@+id/repeatPasswordR_input"
+            android:id="@+id/repeatPassword_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -72,7 +72,7 @@
             android:padding="10dp"
             android:layout_marginTop="60dp"
             android:textSize="20sp"
-            android:id="@+id/login_btn"
+            android:id="@+id/register_btn"
             tools:ignore="HardcodedText" />
 
 
