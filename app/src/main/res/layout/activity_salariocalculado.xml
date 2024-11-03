@@ -97,7 +97,7 @@
         app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imagen2"
-        app:layout_constraintVertical_bias="0.452"
+        app:layout_constraintVertical_bias="0.487"
         tools:ignore="HardcodedText,SpUsage" />
 
     <TextView
@@ -111,21 +111,7 @@
         app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601"
-        tools:ignore="HardcodedText,SpUsage" />
-
-    <TextView
-        android:id="@+id/text6"
-        android:layout_width="209dp"
-        android:layout_height="29dp"
-        android:text="SALARIO CALCULADO:"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imagen2"
-        app:layout_constraintVertical_bias="0.896"
+        app:layout_constraintVertical_bias="0.638"
         tools:ignore="HardcodedText,SpUsage" />
 
     <TextView
@@ -139,7 +125,7 @@
         app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imagen2"
-        app:layout_constraintVertical_bias="0.736"
+        app:layout_constraintVertical_bias="0.766"
         tools:ignore="HardcodedText,SpUsage" />
 
 

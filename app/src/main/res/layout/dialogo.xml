@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/horastrabajadas"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Horas trabajadas" />
+
+    <EditText
+        android:id="@+id/horasdominicales"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Horas dominicales" />
+
+    <EditText
+        android:id="@+id/horasextra"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="horas extra" />
+
+    <EditText
+        android:id="@+id/pagoporhora"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="pagoporhora" />
+
+</LinearLayout>

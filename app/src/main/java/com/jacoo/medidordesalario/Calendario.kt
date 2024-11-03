@@ -21,6 +21,7 @@ class Calendario : AppCompatActivity() {
     // HashMap para almacenar los eventos con la fecha como clave
     private val events = HashMap<String, String>()
 
+
     // Variable para almacenar la fecha seleccionada
     private var selectedDate: String = ""
 
@@ -28,7 +29,7 @@ class Calendario : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calendario)
 
-        //boton devolvitis
+
         //devolvitis
         val ImageView = findViewById<ImageView>(R.id.devolvitis2)
         ImageView.setOnClickListener {
@@ -59,16 +60,30 @@ class Calendario : AppCompatActivity() {
     // Mostrar un cuadro de diálogo para agregar un evento
     private fun showAddEventDialog() {
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("Agregar Evento")
+        builder.setTitle("editar dia")
 
-        // Crear un EditText para que el usuario escriba el evento
-        val input = EditText(this)
-        builder.setView(input)
+        // Inflar el layout personalizado
+        val dialogView = layoutInflater.inflate(R.layout.dialogo, null)
+        builder.setView(dialogView)
+
+        // Obtener referencias a los EditText
+        val editTextHours = dialogView.findViewById<EditText>(R.id.horastrabajadas)
+        val editTextdomin = dialogView.findViewById<EditText>(R.id.horasdominicales)
+        val editTextextra = dialogView.findViewById<EditText>(R.id.horasextra)
+        val editTexthour = dialogView.findViewById<EditText>(R.id.pagoporhora)
 
         // Configurar los botones del cuadro de diálogo
         builder.setPositiveButton("Guardar") { _, _ ->
-            val eventText = input.text.toString()
-            if (eventText.isNotEmpty()) {
+            val hoursText = editTextHours.text.toString()
+            val descripTextdomin = editTextdomin.text.toString()
+            val extextra = editTextextra.text.toString()
+            val Texthour = editTexthour.text.toString()
+
+
+            if (hoursText.isNotEmpty() && descripTextdomin.isNotEmpty() && extextra.isNotEmpty() && Texthour.isNotEmpty()) {
+                // Puedes almacenar la información de varias maneras, aquí solo se muestra un ejemplo
+                val eventText = "Horas: $hoursText, horas dominicales: $descripTextdomin,horas extra: $extextra, pago por hora: $Texthour"
+
                 events[selectedDate] = eventText
                 updateEventTextView()
             }

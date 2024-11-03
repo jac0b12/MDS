@@ -10,12 +10,6 @@ class Centralpage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_centralpage)
 
-        //boton a perfil
-        val buttonP = findViewById<Button>(R.id.perfil_btn)
-        buttonP.setOnClickListener {
-            val intent = Intent(this, Perfil::class.java)
-            startActivity(intent)
-        }
 
         //boton a calendario
         val buttonC = findViewById<Button>(R.id.calendario_btn)
