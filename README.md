@@ -16,9 +16,9 @@
 - Interfaz intuitiva para el registro y visualización de horas trabajadas.
 
 ## Estructura del Proyecto
-Medidor de Salario/ 
-*├── app/ 
-*│ ├── src/ 
+* Medidor de Salario/ 
+* ├── app/ 
+* │ ├── src/ 
 │ │ ├── main/ 
 │ │ │ ├── java/com/jacoo/medidordesalario/ 
 │ │ │ │ ├── Calendario.kt # Gestión del calendario para registrar horas trabajadas 
