@@ -46,7 +46,7 @@
  Nuestra idea principal es crear una aplicacion movil para medir el salario de una persona en base sus horas trabajadas y hacer una comparativa con el contrato de su empresa para asi saber si es rentable o no.
 
 ## Configuración de Base de Datos
- Este proyecto utiliza SQLite para almacenar la información de los usuarios y sus horas trabajadas. La clase `**ConexionSQLite.java**` se encarga de gestionar la conexión con la base de datos. 
+ Este proyecto utiliza SQLite para almacenar la información de los usuarios y sus horas trabajadas. La clase `ConexionSQLite.java` se encarga de gestionar la conexión con la base de datos. 
  
 ## Orden
 
@@ -64,8 +64,8 @@
 - **login.kt** y **register.kt**: Manejan la autenticación de usuarios.
 
 ## Errores Comunes y Soluciones
-- Problema con el tamaño del toque en los campos `**EditText**`: La aseguracion de que los campos tienen un tamaño mínimo de 48dp para mejorar la accesibilidad.
-- Opciones de `**Image Asset**` no disponibles: Cambia a la vista Android en el explorador de archivos para ver esta opción.
+- Problema con el tamaño del toque en los campos `EditText`: La aseguracion de que los campos tienen un tamaño mínimo de 48dp para mejorar la accesibilidad.
+- Opciones de `Image Asset` no disponibles: Cambia a la vista Android en el explorador de archivos para ver esta opción.
 - Advertencias de contraste de color: Verifica que el color de fondo y el de texto tengan suficiente contraste para mejorar la accesibilidad.
 
 ##Licencia
