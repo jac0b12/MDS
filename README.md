@@ -19,34 +19,34 @@
 * Medidor de Salario/ 
 * ├── app/ 
 * │ ├── src/ 
-│ │ ├── main/ 
-│ │ │ ├── java/com/jacoo/medidordesalario/ 
-│ │ │ │ ├── Calendario.kt # Gestión del calendario para registrar horas trabajadas 
-│ │ │ │ ├── Centralpage.kt # Pantalla principal de la aplicación 
-│ │ │ │ ├── ConexionSQLite.java # Clase para gestionar la conexión con la base de datos SQLite 
-│ │ │ │ ├── Login.kt # Pantalla de inicio de sesión 
-│ │ │ │ ├── Modelo.kt # Modelos de datos de la aplicación 
-│ │ │ │ ├── Register.kt # Pantalla de registro de usuarios 
-│ │ │ │ ├── SalarioCalculado.kt # Pantalla que muestra el cálculo del salario 
-│ │ │ │ ├── UsuariosDTO.kt # Data Transfer Object para usuarios 
-│ │ │ │ └── WelcomePage.kt # Página de bienvenida con navegación al registro 
-│ │ │ ├── res/ 
-│ │ │ │ ├── layout/ 
-│ │ │ │ │ ├── activity_calendar.xml # Layout para el calendario 
-│ │ │ │ │ ├── activity_centralpage.xml # Layout de la página principal 
-│ │ │ │ │ ├── activity_login.xml # Layout del inicio de sesión 
-│ │ │ │ │ ├── activity_register.xml # Layout de registro de usuarios
-│ │ │ │ │ ├── activity_salariocalculado.xml # Layout para mostrar el salario calculado 
-│ │ │ │ └── drawable/ 
-│ │ └── AndroidManifest.xml # Manifesto de la aplicación 
-├── README.md # Documentación del proyecto 
-└── build.gradle # Configuración de construcción
+* │ │ ├── main/ 
+* │ │ │ ├── java/com/jacoo/medidordesalario/ 
+* │ │ │ │ ├── Calendario.kt # Gestión del calendario para registrar horas trabajadas 
+* │ │ │ │ ├── Centralpage.kt # Pantalla principal de la aplicación 
+* │ │ │ │ ├── ConexionSQLite.java # Clase para gestionar la conexión con la base de datos SQLite 
+* │ │ │ │ ├── Login.kt # Pantalla de inicio de sesión 
+* │ │ │ │ ├── Modelo.kt # Modelos de datos de la aplicación 
+* │ │ │ │ ├── Register.kt # Pantalla de registro de usuarios 
+* │ │ │ │ ├── SalarioCalculado.kt # Pantalla que muestra el cálculo del salario 
+* │ │ │ │ ├── UsuariosDTO.kt # Data Transfer Object para usuarios 
+* │ │ │ │ └── WelcomePage.kt # Página de bienvenida con navegación al registro 
+* │ │ │ ├── res/ 
+* │ │ │ │ ├── layout/ 
+* │ │ │ │ │ ├── activity_calendar.xml # Layout para el calendario 
+* │ │ │ │ │ ├── activity_centralpage.xml # Layout de la página principal 
+* │ │ │ │ │ ├── activity_login.xml # Layout del inicio de sesión 
+* │ │ │ │ │ ├── activity_register.xml # Layout de registro de usuarios
+* │ │ │ │ │ ├── activity_salariocalculado.xml # Layout para mostrar el salario calculado 
+* │ │ │ │ └── drawable/ 
+* │ │ └── AndroidManifest.xml # Manifesto de la aplicación 
+* ├── README.md # Documentación del proyecto 
+* └── build.gradle # Configuración de construcción
 
 ## Enfasis
  Nuestra idea principal es crear una aplicacion movil para medir el salario de una persona en base sus horas trabajadas y hacer una comparativa con el contrato de su empresa para asi saber si es rentable o no.
 
 ## Configuración de Base de Datos
- Este proyecto utiliza SQLite para almacenar la información de los usuarios y sus horas trabajadas. La clase **ConexionSQLite.java** se encarga de gestionar la conexión con la base de datos. 
+ Este proyecto utiliza SQLite para almacenar la información de los usuarios y sus horas trabajadas. La clase `**ConexionSQLite.java**` se encarga de gestionar la conexión con la base de datos. 
  
 ## Orden
 
@@ -64,8 +64,8 @@
 - **login.kt** y **register.kt**: Manejan la autenticación de usuarios.
 
 ## Errores Comunes y Soluciones
-- Problema con el tamaño del toque en los campos **EditText**: La aseguracion de que los campos tienen un tamaño mínimo de 48dp para mejorar la accesibilidad.
-- Opciones de **Image Asset** no disponibles: Cambia a la vista Android en el explorador de archivos para ver esta opción.
+- Problema con el tamaño del toque en los campos `**EditText**`: La aseguracion de que los campos tienen un tamaño mínimo de 48dp para mejorar la accesibilidad.
+- Opciones de `**Image Asset**` no disponibles: Cambia a la vista Android en el explorador de archivos para ver esta opción.
 - Advertencias de contraste de color: Verifica que el color de fondo y el de texto tengan suficiente contraste para mejorar la accesibilidad.
 
 ##Licencia
