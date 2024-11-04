@@ -76,7 +76,6 @@ class Calendario : AppCompatActivity() {
         builder.show()
     }
 
-    // Clase Calendario completa sin duplicados al final
     private fun updateEventTextView() {
         val event = modelo.getHorasTrabajadas(this, selectedDate)
         if (event != null) {

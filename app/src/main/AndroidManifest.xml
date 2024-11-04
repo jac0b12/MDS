@@ -16,9 +16,6 @@
             android:name=".Salariocalculado"
             android:exported="false" />
         <activity
-            android:name=".Perfil"
-            android:exported="false" />
-        <activity
             android:name=".Centralpage"
             android:exported="false" />
         <activity
