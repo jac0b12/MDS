@@ -17,8 +17,8 @@
 
 ## Estructura del Proyecto
 Medidor de Salario/ 
-├── app/ 
-│ ├── src/ 
+*├── app/ 
+*│ ├── src/ 
 │ │ ├── main/ 
 │ │ │ ├── java/com/jacoo/medidordesalario/ 
 │ │ │ │ ├── Calendario.kt # Gestión del calendario para registrar horas trabajadas 
