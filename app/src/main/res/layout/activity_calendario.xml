@@ -38,7 +38,7 @@
         android:id="@+id/perfil_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PERFIL"
+        android:text="CALENDARIO"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:textStyle="bold"

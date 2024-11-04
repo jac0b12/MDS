@@ -1,9 +1,11 @@
 package com.jacoo.medidordesalario
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.TextView
 
 class Salariocalculado : AppCompatActivity() {
@@ -26,6 +28,13 @@ class Salariocalculado : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_salariocalculado)
+
+
+        val imageView = findViewById<ImageView>(R.id.devolvitis2)
+        imageView.setOnClickListener {
+            val intent = Intent(this, Centralpage::class.java)
+            startActivity(intent)
+        }
 
         // Inicializar los TextViews
         salarioTextView = findViewById(R.id.text2)
