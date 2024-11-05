@@ -1,13 +1,13 @@
 # *Medidor de salario (MDS)* 
 
-## Nuestro proyecto esta conformado por la siguientes personas
+## Nuestro proyecto esta conformado por la siguientes personas:
 
 > * Simón Rojas Castaño
 > * Jacobo Patiño Castro
-> * Juan José Sanchez Ramirez
+> * Juan José Sénchez Ramirez
 
 ## Descripción
- La aplicación "Medidor de Salario" permite calcular el salario de un usuario en función de las horas trabajadas, incluyendo diferentes tipos de horas (ordinarias, nocturnas, dominicales, etc.). Este proyecto está desarrollado en **Android Studio** y utiliza **SQLite** para almacenar datos de usuarios y horas trabajadas.
+ La aplicación "Medidor de Salario" permite calcular el salario de un usuario en función de las horas trabajadas, incluyendo diferentes tipos de horas (ordinarias, nocturnas, dominicales, etc.), de esta manera generando mas claridad a la hora del pago como para el empleador como para el empleado. Este proyecto está desarrollado en **Android Studio** y utiliza **SQLite** para almacenar datos de usuarios y horas trabajadas.
 
 ## Características
 - Registro de horas trabajadas clasificadas (ordinarias, nocturnas, dominicales).
@@ -51,7 +51,7 @@
 ## Orden
 
 **1. Pantalla de Bienvenida**: Desde aquí, puedes navegar al registro de usuarios o al inicio de sesión.
-**2. egistro de Usuario**: Completa el formulario de registro para crear un nuevo usuario.
+**2. Registro de Usuario**: Completa el formulario de registro para crear un nuevo usuario.
 **3. Inicio de Sesión**: Ingresa con tus credenciales para acceder a la aplicación.
 **4. Página Principal**: Aquí puedes acceder al calendario para registrar las horas trabajadas.
 **5. Registro de Horas**: Selecciona el tipo de horas trabajadas (ordinarias, nocturnas, dominicales) y guarda la información.
