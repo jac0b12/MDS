@@ -68,7 +68,7 @@
 - Opciones de `Image Asset` no disponibles: Cambia a la vista Android en el explorador de archivos para ver esta opción.
 - Advertencias de contraste de color: Verifica que el color de fondo y el de texto tengan suficiente contraste para mejorar la accesibilidad.
 
-##Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT.
 
